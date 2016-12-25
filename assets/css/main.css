@@ -1,0 +1,54 @@
+body{
+
+background-color: rgb(84, 88, 91);
+
+
+}
+
+.navbar-default {
+background-color:transparent;
+color:#FFF;
+}
+
+
+
+.fill { 
+    min-height: 960px;
+    height: 100%;
+}
+
+
+
+#top_header{
+ min-height: 890px;
+    height: 100%;
+    background-color:transparent;
+}
+
+
+#service{
+ min-height: 500px;
+    height: 100%;
+    background-color:#FFF;
+    width: 1500px;   
+     margin: 0 0 0 0;
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .container{
+    width: 1500px;
+    background-color: #FFF;
+    background-image: url("../images/home-bg.jpg");
+    padding:0 !important;
+  }
+  
+  .navbar-collapse {
+
+font-size: 200%;
+}
+}
+
+
