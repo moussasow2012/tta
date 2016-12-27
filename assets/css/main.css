@@ -1,9 +1,10 @@
-body{
+html, body {
 
-background-color: rgb(84, 88, 91);
-
+  background-color: rgb(84, 88, 91);
 
 }
+
+
 
 .navbar-default {
 background-color:transparent;
@@ -11,44 +12,81 @@ color:#FFF;
 }
 
 
-
-.fill { 
-    min-height: 960px;
-    height: 100%;
-}
-
-
-
 #top_header{
- min-height: 890px;
+ min-height: 960px;
     height: 100%;
     background-color:transparent;
+     background-image: url("../images/home-bg.jpg");
 }
 
 
 #service{
- min-height: 500px;
+	text-align: center;
     height: 100%;
     background-color:#FFF;
-    width: 1500px;   
-     margin: 0 0 0 0;
+      
 }
 
+#our_service{
+	text-align: center;
+    height: 100%;
+    background-color:#FFF;
+      
+}
+
+
+
+
+  
+.navbar-collapse {
+
+font-size: 200%;
+}
+
+
+
+#slider_blog .slides li {
+    position: relative;
+}
+#slider_blog .flex-caption {
+	text-align: center;
+        margin-top:-84%;
+       
+    position: absolute;  
+    padding:50%;     
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+#project_blog .slides li {
+
+background-image: url("../images/any1car-bg.jpg");
+height: 971px;
+ position: relative;
+}
+
+#project_blog .flex-caption {
+
+	text-align: center;
+        margin-top:-20%;
+       
+    position: absolute;  
+    padding:50%;     
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
 
 
 
 @media (min-width: 1200px) {
-  .container{
+ .fill{
     width: 1500px;
-    background-color: #FFF;
-    background-image: url("../images/home-bg.jpg");
-    padding:0 !important;
+    background-color:#FFF;
+    padding: 0;
+    
   }
   
-  .navbar-collapse {
-
-font-size: 200%;
-}
-}
-
-
+    }
