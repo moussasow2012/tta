@@ -119,7 +119,7 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   top: 50%;
   z-index: 10;
-  overflow: hidden;
+ 
   opacity: 0;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
@@ -132,11 +132,11 @@ html[xmlns] .flexslider .slides {
 }
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
-  font-size: 40px;
+  font-size: 50px;
   display: inline-block;
   content: '\f001';
-  color: rgba(0, 0, 0, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 0 rgb(255, 255, 255);
 }
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
@@ -149,14 +149,14 @@ html[xmlns] .flexslider .slides {
   text-align: right;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
-  opacity: 0.7;
+  opacity: 1;
   left: 10px;
 }
 .flexslider:hover .flex-direction-nav .flex-prev:hover {
   opacity: 1;
 }
 .flexslider:hover .flex-direction-nav .flex-next {
-  opacity: 0.7;
+  opacity: 1;
   right: 10px;
 }
 .flexslider:hover .flex-direction-nav .flex-next:hover {
@@ -209,8 +209,10 @@ html[xmlns] .flexslider .slides {
   width: 11px;
   height: 11px;
   display: block;
-  background: #666;
+  background: #FFF;
+/*
   background: rgba(0, 0, 0, 0.5);
+*/
   cursor: pointer;
   text-indent: -9999px;
   -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
